@@ -19,7 +19,7 @@ public class Bird : MonoBehaviour
     void Start()
     {
         _startPosition = _rigidBody2D.position;
-        _rigidBody2D.isKinematic = true; //the object is under control of animation or script and not the physics
+        _rigidBody2D.isKinematic = true; //the object is under control of animation or script and not the physics handler itself
     }
     
     void OnMouseDown()
